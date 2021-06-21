@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: red
+}
+
+h1 {
+    text-shadow: 2px 2px #00ff44;
+    font-size: 20px;
+
+}
+
+p {
+    padding: 20px;
+    font-size: 14;
+    text-align: center;
+    background-color: green;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'PT Sans', cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    text-decoration-color: crimson;
+    position: fixed
+}
+
+#myname {
+    font-family: 'PT Sans', cursive;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover{
+    transform: scale(0.9);
+}
+.link:hover{
+transform: scale(0.9);
+}
+
+   
+
